@@ -1,0 +1,10 @@
+mission_id: kim2_remap_rev4_qa_rem_rev4
+created: 2026-11-09T14:17:29+0700
+map:
+  id: kim2_remap
+  revision: 4
+  sha256: a28ae5d30764f53de94bc6656a49223b81a965621916f90850fe2b87c2838bef
+route:
+  id: qa_rem
+  revision: 4
+  sha256: d8150d76892fe6c2092f54e5242dff6c6fee2c7abfe048d519b25b30936d10b2

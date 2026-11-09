@@ -1,0 +1,123 @@
+schema_version: 1
+route_id: qa_1
+revision: 6
+map:
+  id: kim2
+  revision: 11
+  sha256: 57bd4a8af998b411fbf5a076c5b636b247a9d8334790316c5f7db4c71548b45a
+frame_id: map
+start:
+  x_m: -8.773403595603977
+  y_m: 0.1168158641045256
+  yaw_deg: 0.384868183773294
+limits:
+  angular_rad_s: 0.37
+  position_tolerance_m: 0.05
+  heading_tolerance_deg: 2.0
+  cross_track_limit_m: 0.1
+steps:
+- id: s1
+  type: straight
+  to:
+    x_m: 2.7263369595978055
+    y_m: 0.1940632786076506
+  v_mps: 0.8
+- id: s2
+  type: arc
+  direction: ccw
+  angle_deg: 90.0
+  radius_m: 2.0
+- id: s3
+  type: straight
+  to:
+    x_m: 4.656433307386595
+    y_m: 10.607262983225457
+  v_mps: 0.8
+- id: s4
+  type: arc
+  direction: cw
+  angle_deg: 90.5
+  radius_m: 2.0
+- id: s5
+  type: straight
+  to:
+    x_m: 18.513815270438243
+    y_m: 12.596874660912928
+  v_mps: 0.8
+- id: s12
+  type: straight
+  to:
+    x_m: 22.024997466130603
+    y_m: 12.58981917915106
+  v_mps: 0.3
+- id: s13
+  type: straight
+  to:
+    x_m: 57.219968515557824
+    y_m: 12.519097279087507
+  v_mps: 0.8
+- id: s18
+  type: straight
+  to:
+    x_m: 61.25518362796801
+    y_m: 12.510988788828657
+  v_mps: 0.3
+- id: s19
+  type: straight
+  to:
+    x_m: 89.66023947348974
+    y_m: 12.453910761459762
+  v_mps: 0.8
+- id: s6
+  type: arc
+  direction: cw
+  angle_deg: 90.0
+  radius_m: 2.0
+- id: s7
+  type: straight
+  to:
+    x_m: 91.639066112604
+    y_m: 1.9149131747662462
+  v_mps: 0.8
+- id: s8
+  type: arc
+  direction: cw
+  angle_deg: 90.0
+  radius_m: 2.0
+- id: s9
+  type: straight
+  to:
+    x_m: 61.18164256110691
+    y_m: -0.02388874239192071
+  v_mps: 0.8
+- id: s16
+  type: straight
+  to:
+    x_m: 57.66658913876091
+    y_m: -0.016825481663446183
+  v_mps: 0.3
+- id: s17
+  type: straight
+  to:
+    x_m: 22.35705678569721
+    y_m: 0.054126621546337156
+  v_mps: 0.8
+- id: s14
+  type: straight
+  to:
+    x_m: 18.630915273339053
+    y_m: 0.0616140494316899
+  v_mps: 0.3
+- id: s15
+  type: straight
+  to:
+    x_m: -10.864745805738579
+    y_m: 0.12088357382520462
+  v_mps: 0.8
+- id: s10
+  type: rotate
+  direction: cw
+  angle_deg: 180.0
+- id: s11
+  type: home
+repeat_count: 1

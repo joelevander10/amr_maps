@@ -1,0 +1,10 @@
+mission_id: kim2_rev11_qa_1_rev7
+created: 2026-11-09T11:26:55+0700
+map:
+  id: kim2
+  revision: 11
+  sha256: 57bd4a8af998b411fbf5a076c5b636b247a9d8334790316c5f7db4c71548b45a
+route:
+  id: qa_1
+  revision: 7
+  sha256: aaf0dc91c39390c55a07590407f2c5c0b70f29f6dea9e5cebc7324119df65d48

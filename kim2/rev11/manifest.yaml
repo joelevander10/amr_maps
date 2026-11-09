@@ -1,0 +1,32 @@
+map_id: kim2
+revision: 11
+created: 2026-11-09T11:22:55+0700
+frame_id: map
+resolution: 0.05000000074505806
+origin:
+- -19.750000294297934
+- -39.1000005826354
+- 0.0
+width: 2797
+height: 2037
+start:
+  x_m: 7.8301707697681255
+  y_m: 12.957881901080906
+  yaw_rad: -0.0066129542345299
+  description: map1
+review:
+  dx_m: 0.019121357051592337
+  dy_m: -0.019765179491332083
+  dyaw_rad: 0.008616684791907026
+  note: ''
+files:
+  edits.json: df8610d4421bb89d98f0608dfc61bc4ed8fd86abe0dfd83a6a9522d47ad97d4d
+  map.pgm: db2cbb5d9f7a92c80dfbd64a475025ae9699edcb90b6127600e121da19925dc0
+  map.yaml: 08e3c427f600ff83bb059778d6f9efda964632dba14f486bac658e02ca189de2
+software:
+  slam: slam_toolbox online_async
+  profile: slam_mapping.yaml
+  continued_from:
+    revision: 1
+    sha256: bc9c9f6f2d5ce4c5175a0648ca2c422ba46ce2e5fe19f20955914021ac70b6f9
+sha256: 57bd4a8af998b411fbf5a076c5b636b247a9d8334790316c5f7db4c71548b45a

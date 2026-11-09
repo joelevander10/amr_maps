@@ -1,0 +1,29 @@
+map_id: kim2_remap
+revision: 4
+created: 2026-11-09T14:12:01+0700
+frame_id: map
+resolution: 0.05000000074505806
+origin:
+- -77.75000115856528
+- -18.700000278651714
+- 0.0
+width: 2713
+height: 2927
+start:
+  x_m: 0.9098767796817728
+  y_m: -1.4253936416265234
+  yaw_rad: -1.5501955069446085
+  description: QA_remap
+review:
+  dx_m: 0.09492269103302423
+  dy_m: -0.04355847445563658
+  dyaw_rad: -0.02078837759468377
+  note: ''
+files:
+  edits.json: dbb84f29513ce69b6bf64d2fcac00124871f191db3a7b086352104b464dd5270
+  map.pgm: 2e2df5e4a21d2058d44a11db2460be4b2321b5818fa9bf2698fb97dcef5aeef3
+  map.yaml: 591933997242873c8db6b545b6f5510f274f878addf64c0a68d30ae236e05576
+software:
+  slam: slam_toolbox online_async
+  profile: slam_mapping.yaml
+sha256: a28ae5d30764f53de94bc6656a49223b81a965621916f90850fe2b87c2838bef
